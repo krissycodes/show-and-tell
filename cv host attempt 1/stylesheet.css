@@ -1,0 +1,78 @@
+.newspaper {
+    -webkit-column-count: 2; /* Old Chrome, Safari and Opera */
+  -moz-column-count: 2; /* Old Firefox */
+  column-count: 2;
+  }
+div {padding: 5px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    text-align: left;
+    image-orientation: left;
+    
+}
+header, h1 {
+font-family: 'DM Serif Display', serif;
+font-size: 50px;
+color: rgba(49, 49, 53, 0.733);
+font-weight: bolder;
+text-shadow: 5px;     
+text-align: center;
+border: 5px solid rgb(0, 0, 0);
+border-radius: 5px;
+margin-top: 5%;
+margin-left: 5%;
+margin-right: 5%;
+padding: 1%;
+background-color: rgb(253, 225, 182); 
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: left;
+    font-family: 'Gabriela', serif;
+    font-size: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+ img {
+     float: left;
+     width: 30%;
+     object-fit: contain;
+
+ }
+ .name {
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    color: #666;
+    background-color: aqua;
+
+ }
+
+ .a {
+     font-family: font-family: 'Julius Sans One', sans-serif;
+     font-size: 15px;
+     color: green;
+
+ }

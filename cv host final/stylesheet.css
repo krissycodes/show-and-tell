@@ -1,0 +1,204 @@
+.newspaper {
+    -webkit-column-count: 2; /* Old Chrome, Safari and Opera */
+  -moz-column-count: 2; /* Old Firefox */
+  column-count: 2;  
+  
+  }
+.name {
+    padding: 2%;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 0%;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 5%;
+    
+    text-align: left;
+    image-orientation: left;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    
+    background-color: aqua;
+    color: #EAECEE;
+    background-image: url("./bgimg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+}
+
+
+
+.nav {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 3%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+
+button {
+    
+    margin: 5px;
+    padding: 0;
+    
+    border: 2px solid #000000;
+    background-color: #0e218b;
+    text-align: center;
+    font-family: 'Gabriela', serif;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  
+  button a {
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+
+ button:hover {
+   background-color: aquamarine;
+ }
+
+ img .name {
+     
+    width: 30%;
+    object-fit: contain;
+    
+}
+ 
+html { 
+  font-size: 1px; 
+}
+
+header {
+  height: 280px;
+  width: 90%;
+  margin-top: 6%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./hks.jpg");
+  background-position: 50% 75%;
+  background-size: cover;
+  border: 5px solid rgb(0, 0, 0);
+}
+main {
+  position: relative;
+  display: flex;
+}
+
+h1 {
+  margin: 0; 
+  color: rgb(255, 255, 255);
+  text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0);
+  }
+
+.marker, .r, .e1, .s1, .s2, .e2 {
+  animation-timing-function: cubic-bezier(0.15,-0.01, 0.58, 1);
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+
+.marker {
+  position: absolute; top: 4rem; left: -3rem;
+  height: 3rem; width: 40rem;
+  background-color: white;
+  text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0);
+  animation-name: marker;
+}
+
+.r { margin-left: 1rem;   animation-name: r; }
+.e1 { margin-left: 7rem; animation-name: e1; }
+.s1 { margin-left: 16rem; animation-name: s1; }
+.s2 { margin-left: 21rem; animation-name: s2; }
+.e2 { margin: 0 36rem 0 42rem; animation-name: e2; }
+
+@keyframes r { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(35rem); }
+}
+@keyframes e1 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(75rem); }
+}
+@keyframes s1 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(81rem); }
+}
+@keyframes s2 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(71rem); }
+}
+@keyframes e2 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(34rem); }
+}
+@keyframes marker { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(337rem); }
+}
+
+h2 {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: rgb(196, 196, 196);
+  margin: 3%;
+  
+  background: url("16594.gif");
+  -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+  
+.outline {
+  color: white;
+  text-shadow:
+     -1px -1px 0 rgb(0, 0, 0),  
+      1px -1px 0 rgb(0, 0, 0),
+      -1px 1px 0 rgb(0, 0, 0),
+       1px 1px 0 rgb(0, 0, 0)
+}
+
+@supports((text-stroke: 1px black) or (-webkit-text-stroke: 1px black)) {
+  .outline {
+      color: transparent;
+      -webkit-text-stroke: 1px rgb(88, 88, 88);
+      text-stroke: 1px rgb(255, 255, 255);
+      text-shadow: none;
+  }
+}
+footer {
+  margin-bottom: 2%;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 40px;
+  color: beige;
+  
+
+}
+
+footer a {
+  padding-left: 40%;
+}

@@ -1,0 +1,87 @@
+header, h1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+    color: rgba(49, 49, 53, 0.733);
+    font-weight: bolder;
+    text-shadow: 5px;     
+    text-align: center;
+    border: 5px solid rgb(255, 247, 174);
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
+    background-color: rgb(253, 225, 182); 
+}
+
+div {
+    background: url(4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background: url(2.jpg); 
+    background-size: cover;
+}
+
+body { 
+    border: 2px solid black;
+    padding: 15px;
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Rye', cursive;
+    font-size: 50px, oblique;
+    color: rgba(28, 28, 34, 0.767);
+    font-weight: bold; 
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Akronim', cursive;
+    font-size: 20px;
+    color: rgba(49, 49, 53, 0.733);
+    text-align: center;
+    background-color: rgb(253, 225, 182);  
+}
+
+ h3 {
+    font-family: 'Akronim', cursive;
+    font-size: 20px;
+    color: #343434;
+    text-align: center;
+}
+
+ div, footer {
+    padding: 15px;
+    border: 5px solid rgb(255, 247, 174);
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    text-align: center;
+}
+
+ ul {
+     text-align: center;
+     list-style-position: inside;
+}
+
+footer {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+    color: rgba(49, 49, 53, 0.733);
+    font-weight: bolder;
+    text-shadow: 5px;     
+    text-align: center;
+}
+
+.newspaper {
+    -webkit-column-count: 2; /* Old Chrome, Safari and Opera */
+  -moz-column-count: 2; /* Old Firefox */
+  column-count: 2;
+}
